@@ -39,6 +39,7 @@
     .long MB_CHECKSUM
 
 // This section contains the data initialized to zeroes when the kernel is loaded:
+// declaration for an uninitialized buffer
 .section .bss
     // The C code needs a stack so it can run. 
     // We can expand this later if we want a larger stack. Initially this is set to 4Kb 
