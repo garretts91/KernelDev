@@ -32,7 +32,7 @@
 
 // Start the section of the exe that will contain the multiboot header 
 .section .multiboot
-    .align 4 // make sure the following dat1a is aligned on multiples of 4 bytes 
+    .align 4 // make sure the following data is aligned on multiples of 4 bytes 
     // use the previously calculated constants in exe code 
     .long MB_MAGIC
     .long MB_FLAGS
@@ -54,7 +54,7 @@
         // Set up an environment thats able to run C 
         // C needs the stack to be initialized
         // on x86, the stack grows downward. 
-        mov $stack_top, %esp // set the stack pointer to the top of the stack 
+        mov $stack_top, %esp // set the stack pointer to the top of the stack. the %esp is the stack pointer register which points to the top of the stack 
 
         // now we have a C-worthy (haha!) environment ready to run the rest of the kernel 
         // now we can call our main C function:
