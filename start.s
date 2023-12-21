@@ -1,5 +1,4 @@
-// This is a project for basic kernel development. The goal is to gain a better understanding of 
-// kernel development, C, and Assembly
+// This is a project for basic kernel development. The goal is to gain a better understanding of kernel development, C, and Assembly
 // About this kernel: x86 architecture, written in C and x86 assembly 
 // Should be capable of displaying text on the screen (maybe a GUI in the future)
 // Should be able to have an ISO disc image for the kernel that can be run on emulator or real software 
@@ -8,8 +7,6 @@
 // TODO: Build Cross Compiler!!! 
 // https://wiki.osdev.org/GCC_Cross-Compiler
 // code definition for start label 
-
-
 
 
 
