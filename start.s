@@ -9,7 +9,6 @@
 // code definition for start label 
 
 
-
 // This file will contain the x86 assembly code that starts the kernel and sets up the x86
 
 // Declare the 'kernel_main' label as being external to this file 
